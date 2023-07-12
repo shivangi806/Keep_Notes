@@ -1,0 +1,36 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: fixed;
+    /* margin-right: 100px; */
+    top: 0;
+    /* z-index: 1000; */
+}
+
+.sidebar img {
+    width: 60px;
+    cursor: pointer;
+}
+
+.sidebar_list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* align-items: center; */
+    height: 0;
+    transition: 300ms;
+    /* margin-bottom: 5px; */
+    /* margin-right: 50px; */
+}
+
+.sidebar_list_active {
+    height: 300px;
+}
+
+.sidebar_list_item {
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    list-style: none;
+}
